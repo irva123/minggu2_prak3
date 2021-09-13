@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class NewsController extends Controller
 {
     public function news ($id){
-        return 'Daftar berita '. $id;
+        return 'Berikut adalah berita ke '. $id;
 }
 }
