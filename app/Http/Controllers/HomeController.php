@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function home(){
-        return "Selamat datang di halaman home"; 
+        return view('home',['ucapan' => 'Selamat datang di halaman home']); 
     }
 }
